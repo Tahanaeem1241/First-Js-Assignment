@@ -1,0 +1,22 @@
+document.write("Result: " + '<br/>');
+var val_a = 10;
+document.write("value of a is: " + val_a + '<br/>');
+document.write("...........................<br/>");
+val_a = ++val_a;
+document.write('<br/>');
+document.write("The value of  ++a  is: " + val_a + '<br/>');
+document.write("Now the value of a is: "+ val_a + '<br/>');
+document.write('<br/>');
+val_a = val_a++;
+document.write("The Value of a++ is: " + val_a + '<br/>');
+val_a = ++val_a;
+document.write("Now the value of a is: " + val_a +'<br/>');
+document.write('<br/>');
+val_a = --val_a;
+document.write("The value of --a is: " + val_a +  '<br/>');
+document.write("Now the value of a is: "+ val_a + '<br/>');
+document.write('<br/>');
+val_a = val_a--
+document.write("The value of a-- is: "+ val_a +'<br/>');
+val_a= --val_a;
+document.write("Now the value of a is: "+ val_a + '<br/>');

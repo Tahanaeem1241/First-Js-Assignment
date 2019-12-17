@@ -1,0 +1,12 @@
+var vone = 5;
+var vtwo = 3;
+var sum = vone + vtwo;
+document.write("sum of " + vone + " and " + vtwo + " is " + sum + '<br/>');
+var subtract = vone - vtwo;
+document.write("subraction of " + vone + " into " + vtwo + " is " + subtract + '<br/>');
+var multiplication = vone * vtwo;
+document.write("multiplication of " + vone + " into " + vtwo + " is " + multiplication + '<br/>');
+var division = vone/vtwo;
+document.write("division of " + vone + " into " + vtwo + " is " + division + '<br/>');
+var modulus = vone % vtwo ;
+document.write(" modulus of " + vone + " into " + vtwo + " is " + modulus );
